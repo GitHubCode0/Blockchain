@@ -1,0 +1,16 @@
+.headers {
+    text-decoration: none;
+    color: #F0FFFF;
+    left: 600px;
+    z-index:50;
+    position:absolute;
+    width: 400px;
+  }
+
+  .image{
+      z-index: -1;
+      position: fixed;
+      left:140px;
+      width: 170vh;
+      height: 100vh;
+  }

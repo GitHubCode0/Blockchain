@@ -1,0 +1,19 @@
+.sidebar-header:link {
+    text-decoration: none;
+    color: #F0FFFF;
+    left: 100px;
+  }
+
+.header{
+  position: fixed;
+  left:10px;
+}
+
+.links{
+  position: fixed;
+  top:50px;
+}
+  .sidebar-header:link {
+    text-decoration: none;
+    background-color: #fff;
+  }
