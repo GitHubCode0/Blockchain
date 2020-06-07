@@ -1,0 +1,25 @@
+#sidebar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background: #7386D5;
+    color: #fff;
+    z-index: 999;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #F0FFFF;
+}
+
+#content {
+    position: absolute;
+    left: 200px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    
+}
+
