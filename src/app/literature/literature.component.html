@@ -2,20 +2,20 @@
 <hr>
 
 <u>How Blockchain ensures security</u>
-    
-<p>There are numerous ways blockchain ensures security. A security feature discussed 
+<br>
+<p>There are numerous ways Blockchain ensures security. A security feature discussed 
     by [7] is that new blocks are always stored linearly and in chronological order, 
-    therefore blocks are always added to the end of the blockchain. After a block is 
-    added to the end of a blockchain, it becomes very difficult to alter the contents 
+    therefore, blocks are always added to the end of the Blockchain. After a block is 
+    added to the end of a Blockchain, it becomes very difficult to alter the contents 
     of the block. This is a result of each block containing its hash and the hash of 
-    the previous block, as illustrated in figure 3. As the hash code is created by turning digital information 
+    the previous block, as illustrated in Figure 3. As the hash code is created by turning digital information 
     into a string of digital numbers and letters, if the digital information used to 
-    create the hash is altered the hash will change as well. This can act as proof 
+    create the hash is altered, the hash will change as well. This can act as proof 
     that the data existed at a certain time. Therefore, if a hacker attempts to alter 
     a transaction, the block’s hash will change. However, the next block in the chain 
-    will contain the old hash, therefore the hacker would be required to change this 
+    will contain the old hash, therefore, the hacker would be required to change this 
     hash as well, which would change the next block’s hash, resulting in the hacker 
-    needing to change every block after the changed block on the blockchain. To 
+    needing to change every block after the changed block on the Blockchain. To 
     recalculate many hashes would take an enormous and improbable amount of computing 
     power. 
 </p>
@@ -27,42 +27,42 @@
 </div>
 <br>
 
-<p>The blockchain protocol will avoid the existence of multiple blockchains through 
+<p>The Blockchain protocol will avoid the existence of multiple Blockchains through 
     a process called ‘consensus’, a process discussed by [3] and [4]. If multiple, 
-    different copies of the blockchain exist, the blockchain will take the longest 
-    chain available. More users on a blockchain, mean more blocks will be added to 
-    the end of the chain quicker. Thus, the blockchain will always be the one that 
+    different copies of the Blockchain exist, the Blockchain will take the longest 
+    chain available. More users on a Blockchain, mean more blocks will be added to 
+    the end of the chain quicker. Thus, the Blockchain will always be the one that 
     most users trust. 
 </p>
 
 <p>Blockchain has also implemented tests for computers that want to join and add 
     blocks to the chain, called ‘consensus models’. According to [3] and [6], this 
     is a process that requires users to prove themselves before participating in the 
-    blockchain network. An example of this is a method employed by Bitcoin called 
-    proof-of-work, in which computers must prove that they have done work by solving 
+    Blockchain network. An example of this is a method employed by Bitcoin called 
+    proof-of-work. In this method computers must prove that they have done work by solving 
     a complex computational math problem, that is easy for others to verify. [4] 
     describes how producing a proof-of-work can be a random process with low 
     probability, and therefore, a lot of trial and error is required on average 
     before a valid proof-of-work is achieved. Solving one of these problems allows 
-    the computer to add blocks to the blockchain.  Due to the low probability of 
+    the computer to add blocks to the Blockchain.  Due to the low probability of 
     solving these problems, it is unpredictable which computer in the network will 
-    generate the next block. The process of adding a block to the blockchain is known 
+    generate the next block. The process of adding a block to the Blockchain is known 
     as mining. According to [13] in January 2020, the odds of solving one of the 
     problems on the Bitcoin network is about one in 15.5 trillion. Therefore, to 
-    solve a complex math problem with these odds requires computers to run programs 
-    that need significant amounts of power and energy, and therefore money. If a 
-    hacker wanted to coordinate an attack on the blockchain they would need to 
-    control more than 50% of all computing power on the blockchain, to overwhelm 
+    solve a complex math problem with these odds, computers need to run programs 
+    that require significant amounts of power and energy, and therefore money. If a 
+    hacker wanted to coordinate an attack on the Blockchain they would need to 
+    control more than 50% of all computing power on the Blockchain, to overwhelm 
     all other participants on the network [17]. 
 </p>
 
-<p>As proof-of-work wastes a lot of electricity and computing power, there is another 
+<p>As proof-of-work wastes a lot of electricity and computing power there is another 
     method that computers can prove themselves, known as proof of stake. As described 
     by [3] and [4] instead of comparing computing power, proof of stake will compare 
     the amount of Bitcoin the miner holds. Therefore, a miner holding 1% of the 
-    Bitcoin, can mine 1% of the proof of stake holds. In this case, executing an 
-    attack would be more expensive and would reduce the incentives for an attacker, 
-    as the attacker would need to own nearly a majority of all the bitcoin, resulting 
+    Bitcoin can mine 1% of the proof-of-stake blocks. In this case, executing an 
+    attack would be more expensive and would reduce the incentives for an attacker.
+    The attack is more expensive as the attacker would need to own nearly a majority of all the bitcoin, resulting 
     in the attacker suffering severely from their attack [13]. 
 </p>
 
@@ -89,7 +89,7 @@
     transparency, immutability but also:</p>
 
 <ul>
-    <li>Open Source: As most Blockchain systems are open to everyone allowing the 
+    <li>Open Source: Most Blockchain systems are open to everyone allowing the 
         record to be checked publicly. Furthermore, anyone can use Blockchain to 
         implement any system they want. 
     </li>
@@ -97,7 +97,7 @@
     <li>Autonomy: As Blockchain implements consensus any node on the Blockchain 
         can transfer and update data safely. </li>
 
-    <li>Anonymity: Transfer of data and transaction can be anonymous as only the 
+    <li>Anonymity: Transfer of data and transactions can be anonymous as only the 
         person’s Blockchain address needs to be known. </li>    
 </ul>
 
@@ -106,7 +106,7 @@
 </p>
 
 <ul>
-    <li>Auditability: Each block uses cryptographic schemes and secure timestamping 
+    <li>Auditability: Each block uses cryptographic schemes and secure timestamping, 
         allowing inspection of each transaction. 
     </li>
 
@@ -120,29 +120,29 @@
         available.</li>
 
     <li>Consistency: After the miners agree in the consensus and block arrangement 
-        the Blockchain is consistent and changes are infeasible.</li>
+        the Blockchain is consistent, and changes are infeasible.</li>
 
     <li>Privacy: The Blockchain is public, however, the keys relative to each party 
         are anonymous. </li>
 </ul>
 
 <p>As stated by [1], ‘Blockchain is a technology for data management in the 
-    distributed system environment’ Therefore, Blockchain will only guarantee the 
+    distributed system environment.’ Therefore, Blockchain will only guarantee the 
     security of system data inside the Blockchain boundary from external threats. </p>
 
 
 <u>Vulnerabilities discovered on Blockchain systems</u>
-
+<br>
 <p>To analyse attacks and security incidents to Blockchain systems [1] performed a 
     threat modelling exercise and identified the threats data spoofing, data 
     tampering, denial of service, escalation of privileges, data disclosure and 
     non-repudiation broken. This paper also categorized four security domains in 
-    Blockchain system components’ end-point (computers, terminals and mobile 
-    devices), front-end server/application (a front-end facing server and an 
-    application such as a web server for a wallet), distributed application 
+    Blockchain system components; end-point (computers, terminals and mobile 
+    devices), front-end servers/applications (a front-end facing server and an 
+    application such as a web server for a wallet), distributed applications (dApps)
     (propriety applications that run based on Blockchain) and the Blockchain 
     platform (includes Blockchain elements such as nodes and shared data). These
-    security domains are depicted in figure 4. 
+    security domains are depicted in Figure 4. 
     Front-end server applications were found to be the most commonly exploited 
     domain from 2011 to mid-2018, with dApps being the least exploited domain. 
     However, by analyzing the total loss due to cyberattacks from 2011 to mid-2018, 
@@ -156,7 +156,7 @@
     </div>
     <br>
 
-<p>In contrast, [5] divided Blockchain vulnerabilities specific into five categories:</p>
+<p>In contrast, [5] divided Blockchain vulnerabilities into five categories:</p>
 
 <ul>
     <li>Clients’ vulnerabilities: This involves how humans interact with Blockchain 
@@ -168,25 +168,24 @@
         consensus algorithm that should be efficient and secure. This includes 
         vulnerabilities such as the 51% attack. </li>
     <li>Mining Pool vulnerabilities: This refers to tactics used by attacks to 
-        disrupt the normal operation of the blockchain network. This includes the 
-        Transaction Malleability attack where an attacker alters the transaction 
+        disrupt the normal operation of the Blockchain network. This includes the 
+        transaction malleability attack where an attacker alters the transaction 
         identifier without revoking the transaction, allowing the attacker to 
         continuously withdraw. In 2014, Mt Gox, the largest platform for Bitcoin 
         trading, was attacked. Bitcoins worth up to US$450 million were stolen, 
         leading to the collapse of Mt Gox. Mt. Gox, one of the largest exchanges in 
-        Bitcoin history fell victim to the transaction malleability attack. Mt Gox 
-        declared bankruptcy after losing coins values at over US$450 million, after 
-        the attackers performed a transaction malleability attack, forcing the 
-        exchange to freeze user’s accounts and halt withdraws.</li>
+        Bitcoin history, fell victim to the transaction malleability attack. Mt Gox 
+        declared bankruptcy after losing coins valued at over US$450 million forcing the 
+        exchange to freeze users' accounts and halt withdrawals.</li>
     <li>Smart Contract vulnerabilities: These are attacks related to smart contracts, 
         which is an agreement between several people in computer code. </li>
 </ul>
 
 <p>One common method of attacking Blockchain systems is known as the 51% attack, the 
     majority attack or Goldfinger, described by [2]. This attack makes it possible 
-    for a hacker to take advantage of the fact that blockchain will always be the one 
+    for a hacker to take advantage of the fact that Blockchain will always be the one 
     that most users trust. This attack can be explained with the following example; 
-    Say there are one million computers on a particular blockchain network. To 
+    say there are one million computers on a particular Blockchain network. To 
     achieve the majority of the network a hacker would need to control at least half 
     a million and one of the total one million computers. The attacker or the group 
     of attackers now act as a miner, or a group of miners and would then be able to 
@@ -199,13 +198,13 @@
     However, according to [13] it is not necessarily in the attackers’ interest, 
     as attacking the network requires the attacker to spend millions or even 
     billions to buy up all the mining equipment. Once the attackers do this, they 
-    won’t be able to make that much money from it. Source [2] also describes a more 
+    would not be able to make that much money from it. Source [2] also describes a more 
     severe case of the 51% attack that can occur when an attacker holds more than 
     67% of the stake allowing the attacker to block any transactions. The 51% attack 
     was more feasible in the past when transactions were worth significantly more 
     than the mining reward and when the network hash rate was lower. Source [3] 
     reviewed that attacks in recent years and found out of the 25 successful 
-    cyber-attacks analysed over the past 9 years, 10 attacks were 51% attacks. 
+    cyberattacks analysed over the past 9 years, 10 attacks were 51% attacks. 
 </p>
 
 <p>As well as discussing the 51% attack, source [4] also discussed another 
@@ -229,10 +228,10 @@
     Blockchain.
 </p>
 
-<p>The annual growth rate of hacking incidents and their loss, targeted at Blockchain 
+<p>The annual growth rate of hacking incidents and their losses, targeted at Blockchain 
     systems, exceeded all other types of IT systems during their technology maturity 
     periods [1]. According to [1], although the number of cybersecurity events has 
-    been declining, the loss and damage from cybersecurity crimes have increased. 
+    been declining, the loss and damage from cybersecurity crimes has increased. 
     However, in the case of cybersecurity attacks that target Blockchain, the number 
     of attacks has either increased slightly or stayed the same. The loss and damage 
     incurred from cybersecurity attacks targeted against Blockchain have also 
@@ -240,7 +239,7 @@
 </p>
 
 <p>There has not been a lot of research into the security of Blockchain. No reports 
-    have addressed the vulnerabilities of Blockchain, the trends of security 
+    have addressed the vulnerabilities of Blockchain, the trends of the security 
     incidents in Blockchain and the effect this is having on the perceived 
     cybersecurity of Blockchain systems in one report. 
 </p>

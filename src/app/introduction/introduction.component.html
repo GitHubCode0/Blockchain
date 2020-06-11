@@ -6,9 +6,9 @@
     digital information are made up of three parts:</p>
 
 <ul>
-    <li>The blocks contain the main data. This depends on what service blockchain 
+    <li>The blocks contain the main data. This depends on what service Blockchain 
         is used for, for example, transaction records, bank clearing records, contract 
-        records, or IoT data records. See figure 1 for a list of companies using Blockchain.</li>
+        records, or IoT (Internet of Things) data records. See Figure 1 for a list of companies using Blockchain.</li>
     <li>Each block will contain a timestamp of the time the block was generated.</li>
     <li>The blocks also store information that will differentiate it from other 
         blocks. This information consists of a ‘hash’, which is a unique cryptographic 
@@ -24,12 +24,12 @@
 <p>Nodes are Blockchain users with access to the Blockchain network. The nodes store 
     all the transaction data from the start of the chain of data called blocks. In 
     most cases, nodes communicate with the Blockchain through distributed applications 
-    (dApps), online web-based wallets with Multi-Sig authentication, or third-party 
+    (dApps), online web-based wallets with multi-signature authentication, or third-party 
     organisations or exchanges. After a node is authenticated, no further data 
     protection or security controls any data originating from the node to the 
     Blockchain [1].</p>
 
-<p>The process within the blockchain can be divided up into six phases:</p>
+<p>The process within the Blockchain can be divided up into six phases:</p>
 
 <ol>
     <li>Initial request of data transaction: If any of the two nodes initiate a data 
@@ -39,7 +39,8 @@
         include the sender, the receiver, the time of initiation, and the amount of 
         cryptocurrency.</li>
     <li>Initiation of new block creation. Miners are required to validate new 
-        transactions and record them on the Blockchain. Before mining, each miner 
+        transactions and record them on the Blockchain. The process of adding a block 
+        to the Blockchain is known as mining. Before mining, each miner 
         independently verifies the validity of all new transaction data, including 
         the data’s compliance with the Blockchain protocol, verifying identifications 
         using digital signatures, and any conflicts with previous transactions. When the 
@@ -50,33 +51,34 @@
         reaches the predefined size listed in the protocol. Once the candidate block is 
         ready for the mining process, the miner records the timestamp of the data 
         transaction and the previous block’s hash in the header of the candidate block.</li>
-    <li>Start mining. After the candidate block is completed the miners start the 
-        mining process. This can be done in several ways including proof-of-work, 
+    <li>Start mining. After the candidate block is completed, the miners start the 
+        mining process. This can be done in several ways, including proof-of-work, 
         which is a process for obtaining a cryptographic value, known as a hash. 
         Proof-of-work involves the miner putting a set of data, in this case, the 
         candidate block through a hash function. As modern computers find generating 
         a hash function trivial, Blockchain makes the task more difficult, such as 
         ‘find a hash that starts with 10 zeros in the candidate block’. The miners 
-        will adjust the nonce value, a number used only once, in the candidate block 
-        header, and the miners put the candidate block into the hash function to find 
+        will adjust the nonce value, a number used only once in the candidate block 
+        header and the miners put the candidate block into the hash function to find 
         a hash that starts with 10 zeros. The miner can change only the nonce value in 
         the candidate block as the rest of the fields have a defined meaning and cannot 
-        be changed. Therefore, mining is a competitive process, that is designed to be 
-        simple but time-consuming and resource-intensive. This prevents one miner from 
+        be changed. Therefore, mining is a competitive process that is designed to be 
+        simple, but time-consuming and resource-intensive. This prevents one miner from 
         becoming the only creator of blocks, and as a result, dominating and controlling 
         the Blockchain.</li>
     <li>Complete Mining. After the proof-of-work is completed and a correct hash 
         value is obtained, the miner completes the mining process by adding the hash 
         value into the block header. Each block must contain its proof-of-work within 
-        its header to part of the valid data set. The low probability and unpredictability 
+        its header to be part of the valid data set. The low probability and unpredictability 
         of the process, proof-of-work, allows the Blockchain system to address data 
         security and integrity issues without central control.</li>
     <li>Validation of the new block. After a block is successfully mined, the miner 
         forwards the block, broadcasts to the network, and waits for confirmation by 
-        other nodes. The nodes on the network then begin to validate the mined block. 
-        If one of the nodes finds something incorrect, the block is rejected, otherwise, 
-        the block will obtain consensus from the entire network and join the existing 
-        Blockchain. If there is even a tiny change to any of the data, the result will 
+        other nodes. The other nodes on the network then begin to validate the mined block. 
+        If one of the nodes finds something incorrect, the block is rejected. If nothing 
+        is found to be incorrect the block will obtain consensus from the entire network 
+        and will join the existing Blockchain. If there is even a tiny change to any of 
+        the data, the result will 
         be a completely unrecognizable hash, a property that is called the avalanche 
         effect. Due to the properties of the hash function, whatever the size of the 
         original data set, the hash generated from the given function will be the same 
@@ -85,7 +87,7 @@
         timestamped and added to the chain in a linear and chronological order. The 
         new addition to the Blockchain is broadcast to the entire network and 
         distributed. The miner that created the new block becomes the winner and 
-        receives a financial reward [1], [13]. These steps are illustrated in figure 2.</li>
+        receives a financial reward [1], [13]. These steps are illustrated in Figure 2.</li>
 </ol>
 
 <img src="assets/images/how-it-works.png" alt="How Blockchain works">
@@ -94,26 +96,26 @@
     <p>Figure 2: The process within Blockchain [1]</p>
 </div>
 <br>
-<p>Whenever a block is added to the Blockchain it becomes available for everyone to 
+<p>Whenever a block is added to the Blockchain, it becomes available for everyone to 
     see. For example, anyone can look at 
     <a href="https://www.blockchain.com/btc/blocks">Bitcoin’s Blockchain</a> [9]. By 
     clicking on one of the hashes of the blocks, a list of transactions can be shown. 
-    This allows anyone to see the transaction data including time and the participants. 
-    This will not include the user’s actual name, as Blockchain doesn’t use any 
+    This allows anyone to see the transaction data including the time and the participants. 
+    This will not include the user’s actual name, as Blockchain does not use any 
     identifying information, but instead uses a unique digital signature (which is 
     also called the user’s public key). This prevents hackers from stealing personal 
-    information.  Although transactions on Blockchain aren’t completely anonymous, 
+    information.  Although transactions on Blockchain are not completely anonymous, 
     personal information about users is limited to a digital signature [13]. Each 
     block also has a position, called a ‘height’. </p>
 
-<p>Users can connect their computers to the blockchain network as nodes. In this case, 
-    their computer would receive a copy of the blockchain that is updated 
+<p>Users can connect their computers to the Blockchain network as nodes. In this case, 
+    their computer would receive a copy of the Blockchain that is updated 
     automatically when a block is added. Therefore, there can be thousands or even 
-    millions of copies of the same blockchain. Even though each copy of the blockchain 
+    millions of copies of the same Blockchain. Even though each copy of the Blockchain 
     is identical, spreading the information across a network of computers makes the 
     information more difficult to manipulate. This means an attacker would have to 
-    manipulate every copy of the blockchain on the network. This leads to blockchain 
+    manipulate every copy of the Blockchain on the network. This leads to Blockchain 
     often being described as a ‘distributed’ ledger. Blockchain can be applied to many 
-    applications other than cryptocurrency such as recording medical records, property 
+    applications other than cryptocurrency, such as recording medical records, property 
     rights, votes and to facilitate, verify, and negotiate a contract agreement known 
     as smart contracts [13].</p>
