@@ -18,7 +18,7 @@ const appRoutes: Routes =[
   { path: 'executive_summary', component: SummaryComponent},
   { path: 'introduction', component: IntroductionComponent},
   { path: 'literature_review', component: LiteratureComponent},
-  { path: 'method_and_references', component: MethodComponent},
+  { path: 'method', component: MethodComponent},
   { path: 'findings', component: FindingsComponent},
   { path: 'discussion', component: DiscussionComponent},
   { path: 'conclusion', component: ConclusionComponent},
